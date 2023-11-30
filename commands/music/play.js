@@ -20,7 +20,7 @@ module.exports = {
         const song = inter.options.getString('song');
         const res = await player.search(song, {
             requestedBy: inter.member,
-            searchEngine: QueryType.AUTO
+            searchEngine: QueryType.YOUTUBE_SEARCH
         });
         const NoResultsEmbed = new EmbedBuilder()
             .setAuthor({ name: `No results found... try again ? ❌`})
