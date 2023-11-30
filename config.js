@@ -3,7 +3,7 @@ module.exports = {
     app: {
         token: process.env.DISCORD_TOKEN,
         playing: 'music',
-        global: true,
+        global: false,
         guild: process.env.SERVER_ID,
         ExtraMessages: false,
         loopMessage: false,
