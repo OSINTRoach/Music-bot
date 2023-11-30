@@ -1,9 +1,10 @@
+require('dotenv').config()
 module.exports = {
     app: {
-        token: 'xxx',
-        playing: 'by Zerio ❤️',
+        token: process.env.DISCORD_TOKEN,
+        playing: 'music',
         global: true,
-        guild: 'xxx',
+        guild: process.env.SERVER_ID,
         ExtraMessages: false,
         loopMessage: false,
 
