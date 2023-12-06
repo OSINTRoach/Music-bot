@@ -1,7 +1,7 @@
 const ms = require('ms');
 
 module.exports = {
-    name: 'Josip',
+    name: 'josip',
     description: "Šta je josip",
     async execute({ client, inter }) {
 
