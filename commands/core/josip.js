@@ -6,7 +6,7 @@ module.exports = {
     async execute({ client, inter }) {
 
         // const m = await inter.editReply("Test?")
-        inter.editReply(`Noob`)
+        inter.editReply(`Josip je noob`)
 
     },
 };
